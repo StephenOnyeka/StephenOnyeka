@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), transparent;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  color: white;
+  z-index: 999;
+}
+.menu-icon > i {
+  display: none;
+}
+.menu-icon {
+  display: flex;
+  margin-left: 3rem;
+  color: white;
+  z-index: 99;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 30px; */
+}
+#navbar .title {
+  color: white;
+  font-size: 3rem;
+  margin: 2rem;
+  /* padding-left: 2rem; */
+  /* left: 4rem; */
+  /* text-align: left; */
+  font-family: "Shrikhand", cursive;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.nav-elements {
+  display: flex;
+  justify-content: center;
+  color: white;
+  /* z-index: 99; */
+}
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1.5rem;
+}
+.nav-elements #coll_menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  float: left;
+  margin-right: 300px;
+}
+.nav-elements ul #value_menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  float: right;
+  margin-left: 4rem;
+}
+.nav-elements ul li {
+  display: flex;
+  justify-content: center;
+  color: white;
+  & a{
+    color: white;
+  }
+}
+
+@media (max-width: 1300px) {
+
+    #navbar {
+        font-size: 1rem;
+  }
+  .menu-icon {
+  display: flex;
+  /* margin-left: 0.5rem; */
+}
+  .menu-icon > i{
+    z-index: 999;
+  /* display: flex; */
+  /* margin-left: 0.5rem; */
+}
+
+#navbar .title {
+  color: white;
+  font-size: 3rem;
+  /* margin: 2rem; */
+  font-family: "Shrikhand", cursive;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-elements #coll_menu {
+  margin-right: 100px;
+}
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+}
+@media(max-width: 1050px){
+    .nav-elements #value_menu{
+        margin-right: 20px;
+    }
+      .menu-icon > i{
+    z-index: 999;
+  /* display: flex; */
+  /* margin-left: 0.5rem; */
+}
+}
+
+
+  /* .menu-icon a{
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+
+  }
+  #navbar .title {
+    margin: 1rem;
+    font-size: 2.2rem;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2.2rem;
+    align-items: start;
+    justify-items: right;
+    position: fixed;
+    z-index: 999;
+    height: 70px;
+    width: 100%;
+  }
+  
+  .menu-icon > i {
+    display: flex; 
+    position: fixed;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+    & svg {
+      height: 25px;
+      width: 25px;
+    }
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2rem;
+    z-index: 4;
+  }
+  .nav-elements {
+    display: block;
+    position: absolute;
+    color: white;
+    overflow: hidden;
+    width: 0px;
+    right: 0%;
+    top: 0%;
+    transition: 0.5s;
+    height: 100vh;
+  }
+
+  .nav-elements ul {
+    display: grid;
+    margin-bottom: 5rem;
+  }
+  .nav-elements ul #value_menu {
+    display: grid;
+    margin-top: 30%;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .nav-elements.active {
+    width: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      transparent;
+    font-weight: 600;
+  } */
+  
+@media (max-width: 950px) {
+  .menu-icon a{
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    
+
+  }
+  #navbar .title {
+    margin: 1rem;
+    font-size: 2rem;
+  }
+  #navbar {
+    flex-direction: column;
+    align-items: start;
+    justify-items: right;
+    position: fixed;
+    z-index: 99;
+    height: 70px;
+    width: 100%;
+  }
+.nav-elements #coll_menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  float: left;
+  margin-right: 300px;
+}
+  .menu-icon > i {
+    display: flex; 
+    position: fixed;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+    z-index: 99;
+    /* margin-left: 12rem; */
+    & svg {
+      height: 25px;
+      width: 25px;
+    }
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    z-index: 4;
+  }
+  .nav-elements {
+    display: block;
+    position: absolute;
+    color: white;
+    overflow: hidden;
+    width: 0px;
+    right: 0%;
+    top: 0%;
+    transition: 0.5s;
+    height: 100vh;
+  }
+
+  .nav-elements ul {
+    display: grid;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    /* justify-content: center; */
+  }
+  .nav-elements #coll_menu {
+    display: grid;
+    justify-content: center;
+
+  }
+  .nav-elements ul #value_menu {
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .nav-elements.active {
+    width: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      transparent;
+    font-weight: 600;
+  }
+}
+
+}
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+#navlink {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),transparent;
+  position: fixed;
+  z-index: 999;
+  height: 100px;
+  width: 100%;
+}
+
+#navlink .title {
+  color: white;
+  font-size: 3rem;
+  margin: 2rem;
+  font-family: "Shrikhand", cursive;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#coll_menu{
+  color: white;
+  font-weight: 700;
+  font-size: 0.91rem;
+  float: left;
+  margin-right: 350px;
+}
+#navlink ul {
+  display: flex;
+}
+#navlink ul li {
+  list-style: none;
+}
+#navlink ul li a {
+  cursor: pointer;
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+a button{
+  background-color: none;
+  color: none;
+}
+#navlink .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+#navlink .menu i {
+  height: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 650px) {
+  #navlink .menu {
+    display: block;
+    border: 2px solid#36454f;
+    color: white;
+  }
+
+  .fas{
+    color: white;
+  }
+
+  #navlink .title{
+    margin: 1rem;
+    font-size: 2rem;
+  }
+  #navlink {
+    flex-direction: column;
+    align-items: start;
+    justify-items: right;
+    position: fixed;
+    z-index: 999;
+    height: 70px;
+    width: 100%;
+  }
+
+  #navlink ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  #navlink ul.open {
+    display: flex;
+    transition: 0.8s;
+  }
+  #navlink li {
+    width: 100%;
+    text-align: center;
+  }
+
+  #navlink ul li a {
+    margin: 0.2rem 0.5rem;
+  }
+} */

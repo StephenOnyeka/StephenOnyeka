@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "title":"White Topper and Downer",
+        "price": 109.95,
+        "category": "Men",
+        "image": " /images/1.jpg ",
+        "rating": {
+            
+        }
+    },
+    {
+        "id": 2,
+        "title": "Blue Premium Suit",
+        "price": 320.30,
+        "category": "Men",
+        "image": "/images/Products/images (63).jpeg",
+        "rating": {
+          
+        }
+    },
+    {
+        "id": 4,
+        "title": "Gold earrings",
+        "price": 15.99,
+        "category": "Accessories",
+        "image": "/images/Products/images (45).jpeg",
+        "rating": {
+          
+        }
+    },
+    {
+        "id": 5,
+        "title": "360 silver watch",
+        "price": 300.00,
+        "category": "Accessories",
+        "image": "/images/Products/71J6k7xyW9L._SX569_.jpg",
+        "rating": {
+
+        }
+    },
+    {
+        "id": 7,
+        "title": "Shawl lapel suit",
+        "price": 500.90,
+        "category": "Men",
+        "image": "/images/Products/images (67).jpeg ",
+        "rating": {
+            
+        }
+    },
+    {
+        "id": 8,
+        "title": " Dark-brown shoe",
+        "price": 10.99,
+        "category": "Men",
+        "image": "/images/Products/images (74).jpeg ",
+        "rating": {
+           
+        }
+    },
+    {
+        "id": 9,
+        "title": "Ruby necklace",
+        "price": 64.00,
+        "category": "Accessories",
+        "image": "/images/Products/Sa11dd9bfa4e24bc280d8881c10e4751a2.jpg_640x640Q90.jpg_.webp",
+        "rating": {
+          
+        }
+    },
+    {
+        "id": 10,
+        "title": " Fendi t-shirt",
+        "price": 102.00,
+        "category": "Men",
+        "image": "/images/Products/Fendi-red.png",
+        "rating": {
+            
+        }
+    },
+    {
+        "id": 11,
+        "title": "Channel all-in-one pack",
+        "price": 350.00,
+        "category": "Women",
+        "image": "/images/Products/images (3).jpeg",
+        "rating": {
+            
+        }
+    },
+    {
+        "id": 12,
+        "title": "Beta heels",
+        "price": 114.00,
+        "category": "Women",
+        "image": "/images/Products/images (79).jpeg",
+        "rating": {
+            
+        }
+    },
+    {
+        "id": 13,
+        "title": "Avenger's Fan shirt",
+        "price": 72.43,
+        "category": "Men",
+        "image": "/images/Products/A-red.png",
+        "rating": {
+           
+        }
+    },
+    {
+        "id": 14,
+        "title": "Japanese styled earring ",
+        "price": 52.02,
+        "category": "Accessories",
+        "image": "/images/Products/images (49).jpeg ",
+        "rating": {
+           
+        }
+    },
+    {
+        "id": 15,
+        "title": "Spectre high heel",
+        "price": 56.99,
+        "category": "Women",
+        "image": "/images/Products/images (77).jpeg",
+        "rating": {
+           
+        }
+    },
+    {
+        "id": 16,
+        "title": "Vannesse Wristwatch",
+        "price": 250.25,
+        "category": "Accessories",
+        "image": "/images/Products/images (41).jpeg ",
+        "rating": {
+            
+        }
+    },
+    {
+        "id": 17,
+        "title": "Dangly earring",
+        "price": 39.99,
+        "category": "Women",
+        "image": "/images/Products/images (48) (1).jpeg",
+        "rating": {
+            
+        }
+    },
+    {
+        "id": 18,
+        "title": "Tailored fit-grande",
+        "price": 309.85,
+        "category": "Men",
+        "image": "/images/Products/Mens-Boys-3-Piece-Suit-Tan-Navy-Check-Wedding-Prom-Formal-Vintage-Tailored-Fit_grande.jpeg",
+        "rating": {
+            
+        }
+    },
+    {
+        "id": 19,
+        "title": "Black Lacey shoe",
+        "price": 8.95,
+        "category": "Men",
+        "image": "/images/Products/images (72).jpeg",
+        "rating": {
+            
+        }
+    },
+    {
+        "id": 20,
+        "title": "Heart ruby",
+        "price": 12.99,
+        "category": "Accessories",
+        "image": "/images/Products/images (31).jpeg",
+        "rating": {
+           
+        }
+    },
+    {
+        "id": 21,
+        "title": "Japanese dangler ",
+        "price": 28.63,
+        "category": "Women",
+        "image": "/images/Products/81Twm+rwDbL._AC_UY1100_.jpg",
+        "rating": {
+           
+        }
+    },
+    {
+        "id": 22,
+        "title": "White scheme high heel",
+        "price": 102.00,
+        "category": "Women",
+        "image": "/images/Products/images (81).jpeg",
+        "rating": {
+           
+        }
+    }
+]
