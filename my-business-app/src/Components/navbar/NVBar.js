@@ -9,7 +9,7 @@ function NVBar() {
   // const [icon, setIcon] = useState(false);
 
   const handleShowNavbar = () => {
-    setShowNavbar(!showNavbar);
+    setShowNavbar(!showNavbar); 
   };
 
   return (

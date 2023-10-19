@@ -860,6 +860,8 @@ section h3 {
 
 #cart {
   text-align: center;
+  width: 100%;
+  /* overflow: hidden; */
 }
 
 #wrapper {
