@@ -8,7 +8,7 @@
 }
 
 div {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 ::-webkit-scrollbar {
