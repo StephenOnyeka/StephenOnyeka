@@ -1,6 +1,6 @@
-		I used React.js which contains all the
- necessary JSON files for creating a web
- application.
+	I used React.js which contains all the
+	necessary JSON files for creating A web 
+application.
  I indulged the use of third-party packages such
  as react-skeleton for displaying skeletons of the
  navigated page, Framer motion for rendering logo
