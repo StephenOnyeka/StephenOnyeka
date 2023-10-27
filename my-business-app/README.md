@@ -3,13 +3,13 @@
  application. 
 
 I indulged the use of third-party packages such
- as <i>react-skeleton</i>for displaying skeletons of the
+ as <i>react-skeleton</i> for displaying skeletons of the
  navigated page, <i>Framer motion</i> for rendering logo
  image animations, <i>React-router-dom</i> for routing.
  
 
  In the <b>CSS</b> category of the desktop site, I
- learnt parallax scrolling for background images
+ learnt <i>parallax scrolling</i> for background images
  in few sections/ routes. The cart renders your
  added products by means of local storage as they
  won’t be cleared or deleted except when  the
