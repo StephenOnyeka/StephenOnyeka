@@ -11,7 +11,7 @@ I indulged the use of third-party packages such
  In the CSS category of the desktop site, I
  learnt parallax scrolling for background images
  in few sections/ routes. The cart renders your
- added products by means of local storage as they
+ added products by <i> right </i>means of local storage as they
  won’t be cleared or deleted except when  the
  defined remove button is clicked. The increment
  and decrement button are also declared.
