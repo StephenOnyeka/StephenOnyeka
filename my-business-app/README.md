@@ -1,14 +1,14 @@
- I used <b><i>React.js</i></b> which contains all the
+ I used <b>React.js</b> which contains all the
  necessary JSON files for creating A web
  application. 
 
 I indulged the use of third-party packages such
- as react-skeleton for displaying skeletons of the
- navigated page, Framer motion for rendering logo
- image animations, React-router-dom for routing.
+ as <i>react-skeleton</i>for displaying skeletons of the
+ navigated page, <i>Framer motion</i> for rendering logo
+ image animations, <i>React-router-dom</i> for routing.
  
 
- In the CSS category of the desktop site, I
+ In the <b>CSS</b> category of the desktop site, I
  learnt parallax scrolling for background images
  in few sections/ routes. The cart renders your
  added products by means of local storage as they
