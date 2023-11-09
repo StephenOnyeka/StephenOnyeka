@@ -32,27 +32,9 @@ function ProDes({ addToCart }) {
     },
   };
 
-  const showAlert = () => {
-    alert(
-      <>
-        <p>Added to Cart!</p>
-        <button onClick="/cart"> See Cart</button>
-      </>
-    );
-  };
-
   const function1 = () => {
     addToCart(product);
   };
-  // const function2 = () => {
-  //   {showAlert()}
-  //  alert(
-  //    <div>
-  //      <p>Added to Cart!</p>
-  //      <button onClick="/cart"> See Cart</button>
-  //    </div>
-  //  );
-  // }
   const handleClick = () => {
     function1();
     // showAlert();

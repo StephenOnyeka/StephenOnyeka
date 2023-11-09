@@ -5,54 +5,54 @@ import "./signup-signin.css";
 import { useNavigate } from "react-router-dom";
 
 function Signin_signup() {
-  const name = useRef();
-  const email = useRef();
-  const password = useRef();
-  const [showHome, setShowHome] = useState(false);
-  const [show, setShow] = useState(false);
-  const localSignup = localStorage.getItem("signUp");
-  const localEmail = localStorage.getItem("email");
-  const localPassword = localStorage.getItem("password");
-  const localName = localStorage.getItem("name");
-  const navigate = useNavigate();
+  // const name = useRef();
+  // const email = useRef();
+  // const password = useRef();
+  // const [showHome, setShowHome] = useState(false);
+  // const [show, setShow] = useState(false);
+  // const localSignup = localStorage.getItem("signUp");
+  // const localEmail = localStorage.getItem("email");
+  // const localPassword = localStorage.getItem("password");
+  // const localName = localStorage.getItem("name");
+  // const navigate = useNavigate();
 
-  useEffect(() => {
-    if (localSignup) {
-      setShowHome(true);
-    }
-    if (localEmail) {
-      setShow(true);
-    }
-  });
-  const handleClick = () => {
-    if ((name.current.value, email.current.value, password.current.value)) {
-      localStorage.setItem("name", name.current.value);
-      localStorage.setItem("email", email.current.value);
-      localStorage.setItem("password", password.current.value);
-      localStorage.setItem("signUp", email.current.value);
-      alert(`Account created successfully!`);
-      window.location.reload();
-      navigate("/");
-    }
-  };
-  const handleSignin = () => {
-    if (
-      email.current.value == localEmail &&
-      password.current.value == localPassword
-    ) {
-      localStorage.setItem("signUp", email.current.value);
-      window.location.reload();
-      navigate("/");
-    } else {
-      alert("Please enter valid credential");
-    }
-  };
+  // useEffect(() => {
+  //   if (localSignup) {
+  //     setShowHome(true);
+  //   }
+  //   if (localEmail) {
+  //     setShow(true);
+  //   }
+  // });
+  // const handleSignup = () => {
+  //   if ((name.current.value, email.current.value, password.current.value)) {
+  //     localStorage.setItem("name", name.current.value);
+  //     localStorage.setItem("email", email.current.value);
+  //     localStorage.setItem("password", password.current.value);
+  //     localStorage.setItem("signUp", email.current.value);
+  //     alert(`Account created successfully!`);
+  //     window.location.reload();
+  //     navigate("/");
+  //   }
+  // };
+  // const handleSignin = () => {
+  //   if (
+  //     email.current.value == localEmail &&
+  //     password.current.value == localPassword
+  //   ) {
+  //     localStorage.setItem("signUp", email.current.value);
+  //     window.location.reload();
+  //     navigate("/");
+  //   } else {
+  //     alert("Please enter valid credential");
+  //   }
+  // };
 
   return (
     <div>
-      {showHome ? (
+      {/* {showHome ? ( */}
         <HoMe />
-      ) : show ? (
+      {/* ) : show ? (
         <div id="Contact_Form">
           <div className="Contact-Form_container">
             <form className="contact_form">
@@ -61,8 +61,6 @@ function Signin_signup() {
                 <p>
                   Hello! <span>{localName}</span>
                 </p>
-                <p>{localEmail}</p>
-                <p>{localPassword}</p>
                 <div>
                   <input type="text" placeholder="Email" ref={email} />
                 </div>
@@ -104,7 +102,7 @@ function Signin_signup() {
                 </div>
 
                 <br />
-                <button onClick={handleClick} type="submit">
+                <button onClick={handleSignup} type="submit">
                   {" "}
                   Sign-Up
                 </button>
@@ -112,7 +110,7 @@ function Signin_signup() {
             </form>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

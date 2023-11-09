@@ -77,7 +77,10 @@ function App() {
 
   return (
     <div>
-      <Signin_signup/>
+
+      <Signin_signup />
+      
+      
     </div>
     // <Routes>
     //   {/* <Route exact path="/" element={<FeaturedProducts />} /> */}
