@@ -67,15 +67,17 @@ function ContactUs() {
           <div className="ContactUs_container">
             <div className="ContactUs_content-1">
               <section>
-                <h3>
-                  Have any queries?
-                  <h1>
+                <span className="contactUs_title">
+                  <h3>Have any queries?
+                  <p>
                     We're here to help.
                     <div className="element-widget-divider">
                       <span className="element-divider-seperator"></span>
                     </div>
-                  </h1>
+                  </p>
                 </h3>
+                </span>
+                
 
                 <section className="grid-Flex_container">
                   <div className="grid-Flex_content">
@@ -118,10 +120,10 @@ function ContactUs() {
               <div className="ContactUs_content-2">
                 <div className="ContactUs_content-2_container">
                   <section id="mainContent">
-                    <p id="h4">
-                      Don't be a stranger!{" "}
+                    <span>
+                      <p id="h4">Don't be a stranger!</p>
                       <p id="h6"> You tell us. We listen.</p>
-                    </p>
+                    </span>
 
                     <p id="description">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.

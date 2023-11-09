@@ -1,0 +1,173 @@
+import "react-loading-skeleton/dist/skeleton.css";
+import React, { useState, useEffect, useRef } from "react";
+import { Routes, Route } from "react-router-dom";
+import "../App.css";
+
+import Home from "../Components/Home";
+import About from "../Components/Routed components/About";
+import ContactUs from "../Components/Routed components/ContactUs";
+import Everything from "../Components/Routed components/everything";
+import FindMore from "../Components/Routed components/FindMore";
+import Accessories from "../Components/Routed components/accessories";
+import Men from "../Components/Routed components/men";
+import Women from "../Components/Routed components/women";
+import Cart from "../Components/Routed components/cart";
+import ProductDescription from "../Components/Routed components/productDescription";
+import DEScription from "../Components/Routed components/DEScription";
+import REViews from "../Components/Routed components/REViews";
+import User from "../Components/Routed components/user";
+
+import FeaturedProducts from "../Components/featuredProducts";
+import ProDes from "../Components/proDes";
+function HoMe() {
+  const cartFromLocalStorage = JSON.parse(
+    localStorage.getItem("cartItems") || "[]"
+  );
+
+  const [cartItems, setCartItems] = useState(cartFromLocalStorage);
+  // const [subtotal, setSubtotal] = useState(0);
+
+  useEffect(() => {
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  }, [cartItems]);
+
+  const addToCart = (product) => {
+    const existingItem = cartItems.find((item) => item.id === product.id);
+    if (existingItem) {
+      setCartItems((prevItems) =>
+        prevItems.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        )
+      );
+    } else {
+      setCartItems((prevItems) => [...prevItems, { ...product, quantity: 1 }]);
+    }
+  };
+
+  const increaseQuantity = (item) => {
+    setCartItems((prevItems) =>
+      prevItems.map((cartItem) =>
+        cartItem.id === item.id
+          ? { ...cartItem, quantity: cartItem.quantity + 1 }
+          : cartItem
+      )
+    );
+  };
+
+  const decreaseQuantity = (item) => {
+    if (item.quantity > 1) {
+      setCartItems((prevItems) =>
+        prevItems.map((cartItem) =>
+          cartItem.id === item.id
+            ? { ...cartItem, quantity: cartItem.quantity - 1 }
+            : cartItem
+        )
+      );
+    }
+  };
+
+  const removeFromCart = (item) => {
+    setCartItems((prevItems) =>
+      prevItems.filter((cartItem) => cartItem.id !== item.id)
+    );
+  };
+
+
+
+
+  //   const name = useRef();
+  //   const email = useRef();
+  //   const password = useRef();
+  //   const [showHome, setShowHome] = useState(false);
+  //   const [show, setShow] = useState(false);
+  //   const localSignup = localStorage.getItem("signUp");
+  //   const localEmail = localStorage.getItem("email");
+  //   const localPassword = localStorage.getItem("password");
+  //   const localName = localStorage.getItem("name");
+  //   useEffect(() => {
+  //     if (localSignup) {
+  //       setShowHome(true);
+  //     }
+  //     if (localEmail) {
+  //       setShow(true);
+  //     }
+  //   });
+  //   const handleClick = () => {
+  //     // console.log(name.current.value, email.current.value, password.current.value)
+  //     if ((name.current.value, email.current.value, password.current.value)) {
+  //       localStorage.setItem("name", name.current.value);
+  //       localStorage.setItem("email", email.current.value);
+  //       localStorage.setItem("password", password.current.value);
+  //       localStorage.setItem("signUp", email.current.value);
+  //       // localStorage.setItem('password', password.current.value)
+  //       alert(`Account created successfully!`);
+  //       window.location.reload();
+  //     }
+  //   };
+  //   const handleSignin = () => {
+  //     if (
+  //       email.current.value == localEmail &&
+  //       password.current.value == localPassword
+  //     ) {
+  //       localStorage.setItem("signUp", email.current.value);
+  //       window.location.reload();
+  //     } else {
+  //       alert("Please enter valid credential");
+  //     }
+  // };
+  const localName = localStorage.getItem("name");
+
+  return (
+    <div>
+      <Routes>
+        {/* <Route exact path="/" element={<FeaturedProducts />} /> */}
+        <Route exact path="/" element={<Home />} />
+        <Route path="/product/:id" element={<ProDes addToCart={addToCart} />}>
+          <Route index element={<DEScription />} />
+          <Route path="description" element={<DEScription />} />
+          <Route path="reviews" element={<REViews />} />
+        </Route>
+
+        <Route path="/about" element={<About />} />
+        <Route path="/contactUs" element={<ContactUs />} />
+        <Route path="everything" element={<Everything />} />
+        <Route path="findMore" element={<FindMore />} />
+        <Route path="/accessories" element={<Accessories />} />
+        <Route path="/men" element={<Men />} />
+        <Route path="/women" element={<Women />} />
+        <Route
+          path="/cart"
+          element={
+            <Cart
+              cartItems={cartItems}
+              increaseQuantity={increaseQuantity}
+              decreaseQuantity={decreaseQuantity}
+              removeFromCart={removeFromCart}
+            />
+          }
+        />
+        <Route path="/women" element={<Women />} />
+        <Route path="/user" element={
+          <User
+            // name={name} 
+            // email={email}
+            // password={password}
+            // showHome={showHome}
+            // setShowHome={setShowHome}
+            // show={show}
+            // setShow={setShow}
+            // localSignup={localSignup}
+            // localEmail={localEmail}
+            // localPassword={localPassword}
+            localName={localName}
+            // handleSignin={handleSignin}
+            // handleClick={handleClick}
+          />} />
+      </Routes>
+    </div>
+  );
+}
+
+export default HoMe;

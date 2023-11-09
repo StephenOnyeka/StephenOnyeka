@@ -67,3 +67,23 @@ li,a{
     color: white;
     border: 1px solid #0075be;
   }
+  @media screen and (max-width: 650px) {
+    .footer1_container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  /* justify-content: center; */
+  /* margin-right: 10px; */
+  margin: 40px 0px;
+}
+.footer1_container .BOX{
+  width: 200px;
+  margin: 0px;
+  /* justify-content: center; */
+
+  & ul{
+  text-align: left;
+  line-height: 1.85;
+  }
+}
+}

@@ -88,7 +88,7 @@ function NVBar() {
                 </Link>
               </li>
               <li>
-                <Link to="/sign-in">
+                <Link to="/user">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
