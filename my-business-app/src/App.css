@@ -701,17 +701,20 @@ section h3 {
 
 /* ---------- Product Description section----------- */
 .alert {
-  display: flex;
-  align-items: center;
-}
+   /* width: "400px";
+      height: "55px";
+      margin: "auto";
+      top: "50px";
+      transform: "translateY(-250%)";*/
+} 
 .alert p {
-  margin-right: 5rem;
+  margin-right: 3rem;
 }
 .alert button,
 .alert button a {
   background-color: #0084d6;
   border: 1px solid #0084d6;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   color: white;
   cursor: pointer;
   font-family: "Lato", sans-serif;
@@ -794,8 +797,9 @@ section h3 {
 
 #inline-navlink a {
   margin-right: 2rem;
-  color: black;
+  color: red;
   font-style: italic;
+  font-size: 1.2rem;
 }
 /* trying to get the inline link active */
 #inline-navlink a:focus {
@@ -893,6 +897,13 @@ section h3 {
 .relatedProducts_cards span {
   font-size: 14px;
   color: gray;
+}
+#return{
+  margin-top: 3rem;
+}
+#return a{
+  color:  #0075be;
+  font-size: 1.2rem;
 }
 
 /* ---------- CART SECTION ---------- */
@@ -1090,6 +1101,19 @@ td .btn-remove {
       }
     }
   }
+
+  .relatedProducts_cards img {
+  width: 180px;
+  height: 180px;
+}
+.alert {
+       /* width: "300px";
+      height: "90px";
+      margin: "auto";
+      top: "50px";
+      transform: "translateY(-200%)"; */
+}
+
   td .btn {
     background-color: #0084d6;
     border: 1px solid #0084d6;
@@ -1100,7 +1124,8 @@ td .btn-remove {
     font-size: 12.8px;
     font-weight: 590;
     letter-spacing: 1px;
-    padding: 0.4rem 0.5rem;
+    padding: 0.38rem 0.42rem;
+    /* border-radius:5px ; */
     /* padding: 0.5rem; */
     &:hover {
       background-color: #0075be;

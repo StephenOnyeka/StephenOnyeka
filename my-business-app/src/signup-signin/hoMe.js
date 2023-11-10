@@ -75,6 +75,22 @@ function HoMe() {
   };
 
 
+/**Defining the total and loading for cart.js */
+    const [subtotal, setSubtotal] = useState(0);
+    const [loading, setLoading] = useState(true);
+ useEffect(() => {
+   let calculatedSubtotal = 0;
+   cartItems.forEach((item) => {
+     calculatedSubtotal += item.price * item.quantity;
+   });
+   setSubtotal(calculatedSubtotal);
+ }, [cartItems]);
+
+ useEffect(() => {
+   setTimeout(() => {
+     setLoading(false);
+   }, 1000);
+ });
 
 
   //   const name = useRef();
@@ -123,7 +139,7 @@ function HoMe() {
     <div>
       <Routes>
         {/* <Route exact path="/" element={<FeaturedProducts />} /> */}
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<Home cartItems={cartItems} subtotal={subtotal}/>} />
         <Route path="/product/:id" element={<ProDes addToCart={addToCart} />}>
           <Route index element={<DEScription />} />
           <Route path="description" element={<DEScription />} />
@@ -145,25 +161,15 @@ function HoMe() {
               increaseQuantity={increaseQuantity}
               decreaseQuantity={decreaseQuantity}
               removeFromCart={removeFromCart}
+              subtotal={subtotal}
+              loading= {loading}
             />
           }
         />
         <Route path="/women" element={<Women />} />
         <Route path="/user" element={
           <User
-            // name={name} 
-            // email={email}
-            // password={password}
-            // showHome={showHome}
-            // setShowHome={setShowHome}
-            // show={show}
-            // setShow={setShow}
-            // localSignup={localSignup}
-            // localEmail={localEmail}
-            // localPassword={localPassword}
             localName={localName}
-            // handleSignin={handleSignin}
-            // handleClick={handleClick}
           />} />
       </Routes>
     </div>

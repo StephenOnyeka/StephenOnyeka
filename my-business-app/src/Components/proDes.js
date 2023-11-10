@@ -9,6 +9,7 @@ function ProDes({ addToCart }) {
   const [products, setProducts] = useState(Data);
   const [loading, setLoading] = useState(true);
   const { id } = useParams();
+  const navigate = useNavigate();
 
   const product = Data.find((product) => product.id === parseInt(id));
 
@@ -22,13 +23,11 @@ function ProDes({ addToCart }) {
   };
   const customStyles = {
     content: {
-      width: "400px", // Set the desired width
-      height: "55px", // Set the desired height
+      width: "300px", 
+      height: "90px",
       margin: "auto",
-      top: "50px", // Set the desired distance from the top
-      //  left: "50%",
-      //  transform: "translateX(-50%)",
-      transform: "translateY(-250%)", // Center horizontal
+      top: "50px", 
+      transform: "translateY(-180%)", 
     },
   };
 
@@ -59,7 +58,7 @@ function ProDes({ addToCart }) {
           <div className="productDescription_container">
             <div className="productDescription_content-1">
               <section>
-                <Skeleton height={450} width={500} />
+                <Skeleton height={450} width={400} />
               </section>
 
               <section>
@@ -197,7 +196,8 @@ function ProDes({ addToCart }) {
                     )}
                   </div>
                 </div>
-                {/* <button onClick={() => navigate(-1)}> Go back</button> */}
+                {/* <button onClick={() => navigate("/")}> Go back</button> */}
+                <div id="return"><Link to="/"> ← Go back</Link></div>
               </div>
             </>
           ) : (

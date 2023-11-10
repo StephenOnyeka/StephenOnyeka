@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import "../App.css";
 
 import NVBar from "./navbar/NVBar";
@@ -13,10 +13,14 @@ import Footer2 from "./footer2/footer2";
 
 import ProDes from "./proDes";
 
-function Home() {
+function Home({cartItems,subtotal}) {
+
   return (
     <div>
-      <NVBar />
+      <NVBar
+        cartItems={cartItems}
+        subtotal={subtotal}
+      />
       <Header />
       <Logo />
       <Random />

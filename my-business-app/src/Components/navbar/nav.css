@@ -80,6 +80,11 @@ body {
   }
 }
 
+.nav-elements ul li a span {
+  color: white;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 1300px) {
 
     #navbar {
