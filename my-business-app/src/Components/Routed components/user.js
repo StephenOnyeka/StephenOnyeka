@@ -1,7 +1,7 @@
 import React from "react";
 import NVBar from "../navbar/NVBar";
 
-function User({ localName }) {
+function User() {
   const logout = () => {
     localStorage.removeItem("signUp");
     window.location.reload();
@@ -10,12 +10,13 @@ function User({ localName }) {
     localStorage.clear();
     window.location.reload();
   };
+  const localName= localStorage.getItem("name");
   return (
     <div id="User">
       <NVBar />
       <div id="user_container">
         <h2>
-          Welcome <i>({localName})!</i>
+          Welcome (<i>{localName}</i>)!
         </h2>
         <h3>
           <i>Hope you are enjoying your time with us!</i>

@@ -1,7 +1,8 @@
 import "react-loading-skeleton/dist/skeleton.css";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect} from "react";
 import { Routes, Route } from "react-router-dom";
 import "../App.css";
+// import Signin_signup from "./signup-signin";
 
 import Home from "../Components/Home";
 import About from "../Components/Routed components/About";
@@ -12,12 +13,12 @@ import Accessories from "../Components/Routed components/accessories";
 import Men from "../Components/Routed components/men";
 import Women from "../Components/Routed components/women";
 import Cart from "../Components/Routed components/cart";
-import ProductDescription from "../Components/Routed components/productDescription";
+// import ProductDescription from "../Components/Routed components/productDescription";
 import DEScription from "../Components/Routed components/DEScription";
 import REViews from "../Components/Routed components/REViews";
 import User from "../Components/Routed components/user";
 
-import FeaturedProducts from "../Components/featuredProducts";
+// import FeaturedProducts from "../Components/featuredProducts";
 import ProDes from "../Components/proDes";
 function HoMe() {
   const cartFromLocalStorage = JSON.parse(
@@ -133,21 +134,33 @@ function HoMe() {
   //       alert("Please enter valid credential");
   //     }
   // };
-  const localName = localStorage.getItem("name");
+  // const localName = localStorage.getItem("name");
 
   return (
     <div>
       <Routes>
         {/* <Route exact path="/" element={<FeaturedProducts />} /> */}
-        <Route exact path="/" element={<Home cartItems={cartItems} subtotal={subtotal}/>} />
+        <Route
+          exact
+          path="/"
+          element={<Home cartItems={cartItems.length} subtotal={subtotal} />}
+        />
         <Route path="/product/:id" element={<ProDes addToCart={addToCart} />}>
           <Route index element={<DEScription />} />
           <Route path="description" element={<DEScription />} />
           <Route path="reviews" element={<REViews />} />
         </Route>
 
-        <Route path="/about" element={<About />} />
-        <Route path="/contactUs" element={<ContactUs />} />
+        <Route
+          path="/about"
+          element={<About cartItems={cartItems.length} subtotal={subtotal} />}
+        />
+        <Route
+          path="/contactUs"
+          element={
+            <ContactUs cartItems={cartItems.length} subtotal={subtotal} />
+          }
+        />
         <Route path="everything" element={<Everything />} />
         <Route path="findMore" element={<FindMore />} />
         <Route path="/accessories" element={<Accessories />} />
@@ -162,15 +175,19 @@ function HoMe() {
               decreaseQuantity={decreaseQuantity}
               removeFromCart={removeFromCart}
               subtotal={subtotal}
-              loading= {loading}
+              loading={loading}
             />
           }
         />
         <Route path="/women" element={<Women />} />
-        <Route path="/user" element={
-          <User
-            localName={localName}
-          />} />
+        <Route
+          path="/user"
+          element={
+            <User
+            // localName={localName}
+            />
+          }
+        />
       </Routes>
     </div>
   );

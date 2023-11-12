@@ -32,17 +32,17 @@ div {
 /*---------- Header section ----------*/
 #header {
   color: #ffffff;
-  width: 100%;
+  /* width: 100%; */
   text-align: left;
   padding-top: 160px;
   padding-bottom: 300px;
   background-size: cover;
   position: relative;
-  background-position: right center;
+  background-position: top right;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/public/images/Screenshot\ 2023-08-17\ 212224.png");
+    url("/public/images/Screenshot 2023-08-17 212224.png");
 }
 .header_container {
   font-size: 2rem;
@@ -301,7 +301,7 @@ div {
 /*-----------ABOUT SECTION----------*/
 #aboutBackground {
   color: #ffffff;
-  width: 100%;
+  /* width: 100%; */
   text-align: left;
   padding-top: 160px;
   padding-bottom: 200px;
@@ -498,11 +498,11 @@ section h3 {
   color: #ffffff;
   width: 100%;
   text-align: left;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-size: cover;
   position: relative;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -701,12 +701,12 @@ section h3 {
 
 /* ---------- Product Description section----------- */
 .alert {
-   /* width: "400px";
+  /* width: "400px";
       height: "55px";
       margin: "auto";
       top: "50px";
       transform: "translateY(-250%)";*/
-} 
+}
 .alert p {
   margin-right: 3rem;
 }
@@ -898,11 +898,11 @@ section h3 {
   font-size: 14px;
   color: gray;
 }
-#return{
+#return {
   margin-top: 3rem;
 }
-#return a{
-  color:  #0075be;
+#return a {
+  color: #0075be;
   font-size: 1.2rem;
 }
 
@@ -1006,9 +1006,42 @@ td .btn-remove {
   /* margin-left: 18rem ; */
 }
 
-@media (max-width: 650px) {
+@media (max-width: 640px) {
+  #header {
+    color: #ffffff;
+    /* width: 100%; */
+    text-align: left;
+    padding-top: 200px;
+    padding-bottom: 75px;
+    background-size: cover;
+    position: relative;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("/public/images/Screenshot 2023-08-17 212224.png");
+  }
   .header_container {
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
     padding-left: 3.2rem;
+    padding-right: 1.2rem;
+  }
+
+  .header_container button {
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-size: 12.768px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 13px 28px;
+    margin-right: 1.5rem;
+  }
+  .header_container {
+    /* padding-left: 3.2rem; */
   }
 
   .product_cards img {
@@ -1027,6 +1060,181 @@ td .btn-remove {
     padding-right: 2.2rem;
     /* padding-left: 7%;
   padding-right: 8%; */
+  }
+
+  #aboutBackground {
+    color: #ffffff;
+    width: 100%;
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    background-size: 130%;
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(
+        rgba(0, 150, 214, 0.2),
+        rgba(0, 132, 214, 0.2)
+      ),
+      url("/public/images/teamWork.avif");
+  }
+
+  .aboutBackground_container {
+    font-size: 1.8rem;
+    font-family: "Lato", sans-serif;
+    /* height: fit-content; */
+    /* margin-left: auto;
+  margin-right: auto; */
+    text-align: center;
+  }
+
+  .about_content-1 {
+    margin: 3rem;
+    /* padding: 1rem; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+    align-items: center;
+    /* left: 45%;
+  top: 45%; */
+    justify-content: center;
+    text-align: left;
+    /* margin-right: 10px; */
+
+    & img {
+      width: 100%;
+      height: 100%;
+      /* height: 200px; */
+    }
+  }
+
+  .about_content-2 {
+    /* border: 1px solid purple; */
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    /* justify-self: center; */
+  }
+  .gridFlex_container {
+    /* border: 1px solid orange; */
+  }
+
+  .gridFlex_content {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+  }
+  .gridFlex_content .imageCon {
+    background-color: #f5f7f9;
+    /* border: 1px solid green; */
+    border: 1px solid #3333330a;
+    border-radius: 0.3rem;
+    line-height: 0.5rem;
+    height: 150px;
+    width: 150px;
+    & h3 {
+      font-size: 1rem;
+    }
+    & p {
+      font-size: 0.9rem;
+      color: #333333;
+    }
+    & img {
+      /* border: 1px solid red; */
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .about-content-3 {
+    width: 100%;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("/public/images/teamWork.avif");
+  }
+  .about-content-3_container {
+    background-color: #f5f7f9;
+    /* font-size: 1.3em; */
+    line-height: 0px;
+    font-family: "Lato", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    /* padding-left: 4.5rem;
+  padding-right: 2.2rem; */
+    width: 350px;
+    height: 250px;
+
+    & h2 {
+      padding-top: 1rem;
+      text-align: center;
+      font-size: 37px;
+    }
+  }
+  .about-content-3_container .element-widget-divider {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+
+    & .element-divider-seperator {
+      display: flex;
+      border: 2px solid #0084d6;
+      width: 80px;
+    }
+  }
+  .about-3_link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .about-3_link ul {
+  }
+  .about-3_link ul li {
+    display: inline-block;
+    list-style: none;
+    /* margin-right: 1.5rem;
+  margin-top: 5rem; */
+    margin: 1rem;
+  }
+  .about-3_link ul {
+    padding: 0px 1rem;
+  }
+
+  #contactUs-Background {
+    color: #ffffff;
+    width: 100%;
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-size: 150%;
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("/public/images/group-happy-friends-during-shopping-high-quality-photo_470178-20684.avif");
+  }
+  .contactUs-Background_container {
+    font-size: 1.8rem;
+    font-family: "Lato", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 
   #whyMe {
@@ -1103,16 +1311,9 @@ td .btn-remove {
   }
 
   .relatedProducts_cards img {
-  width: 180px;
-  height: 180px;
-}
-.alert {
-       /* width: "300px";
-      height: "90px";
-      margin: "auto";
-      top: "50px";
-      transform: "translateY(-200%)"; */
-}
+    width: 180px;
+    height: 180px;
+  }
 
   td .btn {
     background-color: #0084d6;

@@ -37,8 +37,8 @@ function Signin_signup() {
   };
   const handleSignin = () => {
     if (
-      email.current.value == localEmail &&
-      password.current.value == localPassword
+      email.current.value === localEmail &&
+      password.current.value === localPassword
     ) {
       localStorage.setItem("signUp", email.current.value);
       window.location.reload();
@@ -51,7 +51,7 @@ function Signin_signup() {
   return (
     <div>
       {showHome ? (
-        <HoMe />
+        <HoMe/>
       ) : show ? (
         <div id="Contact_Form">
           <div className="Contact-Form_container">

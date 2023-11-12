@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Skeleton from "react-loading-skeleton";
+import NVBar from "../navbar/NVBar";
 
 import globe from "../logos/globe-free-img.png";
 import lock from "../logos/lock-free-img.png";
@@ -11,7 +12,7 @@ import Footer2 from "../footer2/footer2";
 import Span from "../../span";
 // import WhyMe from "..//whyMe";
 
-function About() {
+function About({ cartItems, subtotal }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -23,6 +24,7 @@ function About() {
   const Loading = () => {
     return (
       <>
+        <NVBar />
         <div>
           <div id="Fore">
             <Skeleton height={500} />
@@ -41,16 +43,17 @@ function About() {
                     <Skeleton height={500} />
                   </section>
                 </div>
-                <div><Skeleton height={400} /></div>
-                
+                <div>
+                  <Skeleton height={400} />
+                </div>
               </div>
             </div>
 
             <div>
-              <Skeleton height={300}/>
+              <Skeleton height={300} />
             </div>
             <div>
-              <Skeleton height={300}/>
+              <Skeleton height={300} />
             </div>
           </div>
         </div>
@@ -60,6 +63,7 @@ function About() {
   const ShowProduct = () => {
     return (
       <>
+        <NVBar cartItems={cartItems} subtotal={subtotal} />
         <div id="Fore">
           <div id="aboutBackground">
             <div className="aboutBackground_container">

@@ -6,43 +6,41 @@ import Footer1 from "../footer1/footer1";
 import Footer2 from "../footer2/footer2";
 import Span from "../../span";
 
-function ContactUs() {
+function ContactUs({ cartItems, subtotal }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 1000)
-  })
+    }, 1000);
+  });
 
   const Loading = () => {
     return (
       <>
         <NVBar />
-        <Skeleton height={360}/>
+        <Skeleton height={360} />
 
         <div id="ContactUs">
           <div className="ContactUs_container">
             <div className="ContactUs_content-1">
               <section>
                 <h3>
-                  <Skeleton height={100} width={480}/>
+                  <Skeleton height={100} width={480} />
                 </h3>
 
-                
-                  <div>
-                    <Skeleton height={250} />                    
-                  </div>
-                
+                <div>
+                  <Skeleton height={250} />
+                </div>
               </section>
 
               <div className="ContactUs_content-2">
                 <div className="ContactUs_content-2_container">
                   <section id="mainContent">
-                    <Skeleton height={200}/>
+                    <Skeleton height={200} />
                   </section>
                   <section>
-                    <Skeleton height={600}/>
+                    <Skeleton height={600} />
                   </section>
                 </div>
               </div>
@@ -51,12 +49,12 @@ function ContactUs() {
         </div>
       </>
     );
-  }
+  };
 
   const ShowProduct = () => {
     return (
       <>
-        <NVBar />
+        <NVBar cartItems={cartItems} subtotal={subtotal} />
         <div id="contactUs-Background">
           <div className="contactUs-Background_container">
             <h1>Contact Us</h1>
@@ -68,16 +66,16 @@ function ContactUs() {
             <div className="ContactUs_content-1">
               <section>
                 <span className="contactUs_title">
-                  <h3>Have any queries?
-                  <p>
-                    We're here to help.
-                    <div className="element-widget-divider">
-                      <span className="element-divider-seperator"></span>
-                    </div>
-                  </p>
-                </h3>
+                  <h3>
+                    Have any queries?
+                    <p>
+                      We're here to help.
+                      <div className="element-widget-divider">
+                        <span className="element-divider-seperator"></span>
+                      </div>
+                    </p>
+                  </h3>
                 </span>
-                
 
                 <section className="grid-Flex_container">
                   <div className="grid-Flex_content">
@@ -158,12 +156,8 @@ function ContactUs() {
         <Footer2 />
       </>
     );
-  }
-  return (
-    <>
-      {loading? <Loading/> : <ShowProduct/>}
-    </>
-  );
+  };
+  return <>{loading ? <Loading /> : <ShowProduct />}</>;
 }
 
 export default ContactUs;
