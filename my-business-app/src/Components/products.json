@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title":"White Topper and Downer",
+        "title":"White Brandon",
         "price": 109.95,
         "category": "Men",
         "image": " /images/1.jpg ",
@@ -81,7 +81,7 @@
     },
     {
         "id": 11,
-        "title": "Channel all-in-one pack",
+        "title": "Channel all-in-1 pack",
         "price": 350.00,
         "category": "Women",
         "image": "/images/Products/images (3).jpeg",
@@ -111,7 +111,7 @@
     },
     {
         "id": 14,
-        "title": "Japanese styled earring ",
+        "title": "Japanese styled  ",
         "price": 52.02,
         "category": "Accessories",
         "image": "/images/Products/images (49).jpeg ",
@@ -191,7 +191,7 @@
     },
     {
         "id": 22,
-        "title": "White scheme high heel",
+        "title": "White scheme heels",
         "price": 102.00,
         "category": "Women",
         "image": "/images/Products/images (81).jpeg",

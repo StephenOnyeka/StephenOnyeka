@@ -143,7 +143,7 @@ function HoMe() {
         <Route
           exact
           path="/"
-          element={<Home cartItems={cartItems.length} subtotal={subtotal} />}
+          element={<Home cartItems={cartItems} subtotal={subtotal} />}
         />
         <Route path="/product/:id" element={<ProDes addToCart={addToCart} />}>
           <Route index element={<DEScription />} />
@@ -153,12 +153,12 @@ function HoMe() {
 
         <Route
           path="/about"
-          element={<About cartItems={cartItems.length} subtotal={subtotal} />}
+          element={<About cartItems={cartItems} subtotal={subtotal} />}
         />
         <Route
           path="/contactUs"
           element={
-            <ContactUs cartItems={cartItems.length} subtotal={subtotal} />
+            <ContactUs cartItems={cartItems} subtotal={subtotal} />
           }
         />
         <Route path="everything" element={<Everything />} />

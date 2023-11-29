@@ -23,7 +23,7 @@ function ProDes({ addToCart }) {
   };
   const customStyles = {
     content: {
-      width: "300px", 
+      width: "260px", 
       height: "90px",
       margin: "auto",
       top: "50px", 
@@ -157,8 +157,7 @@ function ProDes({ addToCart }) {
                         Ullam aperiam dolorum dolores, rem minima delectus nisi
                         eveniet beatae? Non eligendi laudantium officia dolorum
                         error similique magni, distinctio veritatis molestiae
-                        voluptatum necessitatibus nostrum nemo ad rerum eius
-                        laborum aperiam dolores cumque.
+                        voluptatum.
                       </p>
                       <button onClick={handleClick}>ADD TO CART</button>
                       <br />
@@ -176,7 +175,7 @@ function ProDes({ addToCart }) {
                   </div>
 
                   <div className="productDescription_content-3">
-                    <p>Related Products</p>
+                    <p id="title">Related Products</p>
                     {products ? (
                       <div
                         key={products.id}

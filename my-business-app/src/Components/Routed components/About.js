@@ -90,7 +90,7 @@ function About({ cartItems, subtotal }) {
               </div>
 
               <div className="about_content-2">
-                <section>
+                <section className="about_content-2_des">
                   <div className="element-widget-container">
                     <div className="element-widget-divider">
                       <span className="element-divider-seperator"></span>
@@ -213,32 +213,32 @@ function About({ cartItems, subtotal }) {
                 <img src={globe} alt="" />
                 <h3>Worldwide Shipping</h3>
                 <p>
-                  I put in the work to ensure the best of quality projects for
-                  my clients.
+                  We put in the work to ensure the best of quality projects for
+                  our clients.
                 </p>
               </div>
               <div className="description">
                 <img src={quality} alt="" />
                 <h3>Best Quality</h3>
                 <p>
-                  I put in the work to ensure the best of quality projects for
-                  my clients.
+                  We put in the work to ensure the best of quality projects for
+                  our clients.
                 </p>
               </div>
               <div className="description">
                 <img src={tag} alt="" />
                 <h3>Best Offers</h3>
                 <p>
-                  I put in the work to ensure the best of quality projects for
-                  my clients.
+                  We put in the work to ensure the best of quality projects for
+                  our clients.
                 </p>
               </div>
               <div className="description">
                 <img src={lock} alt="" />
                 <h3>Secure Payments</h3>
                 <p>
-                  I put in the work to ensure the best of quality projects for
-                  my clients.
+                  We put in the work to ensure the best of quality projects for
+                  our clients.
                 </p>
               </div>
             </div>
