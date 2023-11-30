@@ -1087,6 +1087,10 @@ td .btn-remove {
     & #h4 {
       font-size: 35px;
     }
+
+    & h1{
+      font-size: 35px;
+    }
   }
   .product_cards img {
     width: 150px;
@@ -1382,11 +1386,15 @@ td .btn-remove {
 
     & p {
       color: #333333;
+      font-size: 12.5px;
     }
 
     & img {
       width: 25px;
       height: 25px;
+    }
+    & h3{
+      font-size: 14px;
     }
   }
   #wrapper {
