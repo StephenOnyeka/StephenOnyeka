@@ -675,7 +675,7 @@ a {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("c:\Users\Don\Downloads\BeautyPlus_20230926212209388_save.jpg");
+      url("/public/images/BeautyPlus_20230926212209388_save.jpg");
   }
 
   #home_container {
