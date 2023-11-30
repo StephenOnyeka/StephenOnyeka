@@ -1,9 +1,8 @@
 import react from "react";
 // import AOS from "aos";
-import { Router } from "react-router-dom";
 // import "aos/dist/aos.css";
 // import logo from "./logo.svg";
-import "./App.css"
+import "./App.css";
 
 import NVBar from "./components/NVBar";
 import Home from "./components/Home";
@@ -16,10 +15,11 @@ import Contact from "./components/cOntact";
 import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <div className="App">
-      <div><NVBar /></div>
+      <div>
+        <NVBar />
+      </div>
 
       <Home />
       <Services />
