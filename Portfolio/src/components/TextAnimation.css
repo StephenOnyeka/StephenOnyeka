@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Tektur&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.typewriter_container {
+  /* text-align: left; */
+    color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 32px;
+  /* color: Purple;
+  font-family: serif; */
+}
