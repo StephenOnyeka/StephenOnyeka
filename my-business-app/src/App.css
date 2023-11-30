@@ -1316,23 +1316,22 @@ td .btn-remove {
     text-align: center;
   }
 
-  .ContactUs_content-2_container{
+  .ContactUs_content-2_container {
     padding: 1.5rem;
     gap: 1.5rem;
-    & #mainContent{
+    & #mainContent {
       padding: 2.5rem;
     }
-
-  } 
+  }
   .ContactUs_content-2_container form {
-    height:350px; 
-    & textarea{
+    height: 350px;
+    & textarea {
       font-size: 12.5px;
       height: 40%;
     }
   }
-  
-  .ContactUs_content-2_container form input{
+
+  .ContactUs_content-2_container form input {
     height: 1.8rem;
     font-size: 12.5px;
     padding: 2px 11px;
@@ -1341,17 +1340,15 @@ td .btn-remove {
     font-size: 12px;
     padding: 6px 15px;
   }
-  .ContactUs_content-2_container #mainContent #h6{
+  .ContactUs_content-2_container #mainContent #h6 {
     font-size: 30px;
   }
 
-  .ContactUs_content-2 #description{
+  .ContactUs_content-2 #description {
     font-size: 12.5px;
   }
 
-  .ContactUs_content-2
-
-  #whyMe {
+  .ContactUs_content-2 #whyMe {
     font-family: "Lato", sans-serif;
     /* background-color: #f5f7f9; */
     font-size: 12px;
