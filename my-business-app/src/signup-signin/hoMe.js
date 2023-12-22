@@ -20,7 +20,7 @@ import User from "../Components/Routed components/user";
 
 // import FeaturedProducts from "../Components/featuredProducts";
 import ProDes from "../Components/proDes";
-function HoMe() {
+function HoMe({data, setData}) {
   const cartFromLocalStorage = JSON.parse(
     localStorage.getItem("cartItems") || "[]"
   );
@@ -93,49 +93,6 @@ function HoMe() {
    }, 1000);
  });
 
-
-  //   const name = useRef();
-  //   const email = useRef();
-  //   const password = useRef();
-  //   const [showHome, setShowHome] = useState(false);
-  //   const [show, setShow] = useState(false);
-  //   const localSignup = localStorage.getItem("signUp");
-  //   const localEmail = localStorage.getItem("email");
-  //   const localPassword = localStorage.getItem("password");
-  //   const localName = localStorage.getItem("name");
-  //   useEffect(() => {
-  //     if (localSignup) {
-  //       setShowHome(true);
-  //     }
-  //     if (localEmail) {
-  //       setShow(true);
-  //     }
-  //   });
-  //   const handleClick = () => {
-  //     // console.log(name.current.value, email.current.value, password.current.value)
-  //     if ((name.current.value, email.current.value, password.current.value)) {
-  //       localStorage.setItem("name", name.current.value);
-  //       localStorage.setItem("email", email.current.value);
-  //       localStorage.setItem("password", password.current.value);
-  //       localStorage.setItem("signUp", email.current.value);
-  //       // localStorage.setItem('password', password.current.value)
-  //       alert(`Account created successfully!`);
-  //       window.location.reload();
-  //     }
-  //   };
-  //   const handleSignin = () => {
-  //     if (
-  //       email.current.value == localEmail &&
-  //       password.current.value == localPassword
-  //     ) {
-  //       localStorage.setItem("signUp", email.current.value);
-  //       window.location.reload();
-  //     } else {
-  //       alert("Please enter valid credential");
-  //     }
-  // };
-  // const localName = localStorage.getItem("name");
-
   return (
     <div>
       <Routes>
@@ -143,7 +100,7 @@ function HoMe() {
         <Route
           exact
           path="/"
-          element={<Home cartItems={cartItems} subtotal={subtotal} />}
+          element={<Home cartItems={cartItems} subtotal={subtotal} data={data} />}
         />
         <Route path="/product/:id" element={<ProDes addToCart={addToCart} />}>
           <Route index element={<DEScription />} />
@@ -184,7 +141,8 @@ function HoMe() {
           path="/user"
           element={
             <User
-            // localName={localName}
+              data={data}
+              setData={setData}
             />
           }
         />

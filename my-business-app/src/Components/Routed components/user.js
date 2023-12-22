@@ -1,22 +1,28 @@
 import React from "react";
 import NVBar from "../navbar/NVBar";
 
-function User() {
+function User({ data, setData }) {
+  const localName = localStorage.getItem("name");
+  const oauthName = localStorage.getItem("oauthName");
+  const oauthSignup = localStorage.getItem("oauthSignUp");
+
+  
   const logout = () => {
     localStorage.removeItem("signUp");
+    localStorage.removeItem("oauthSignUp");
     window.location.reload();
   };
   const deleteAccount = () => {
     localStorage.clear();
+    setData(null);
     window.location.reload();
   };
-  const localName= localStorage.getItem("name");
   return (
     <div id="User">
       <NVBar />
       <div id="user_container">
         <h2>
-          Welcome (<i>{localName}</i>)!
+          Welcome (<i>{localName}{oauthName}</i>)!
         </h2>
         <h3>
           <i>Hope you are enjoying your time with us!</i>
