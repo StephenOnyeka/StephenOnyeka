@@ -226,7 +226,7 @@ function Signin_signup() {
                 <span id="or">Or</span>
                 <LoginSocialGoogle
                   client_id={process.env.REACT_APP_GOOGLE_CLIENT_ID}
-                  client_secret={process.env.REACT_APP_GOOGLE_CLIENT_SECRET}
+                  // client_secret={process.env.REACT_APP_GOOGLE_CLIENT_SECRET}
                   discoveryDocs="claims_supported"
                   access_type=""
                   onResolve={handleLoginSuccess}

@@ -23,7 +23,7 @@ function Accessories() {
           <h1>Accessories</h1>
           <div className="featuredProducts_container">
             {items
-              .filter((product) => product.category == "Accessories")
+              .filter((product) => product.category === "Accessories")
               .map((product) => (
                 <div className="product_cards" key={product.id}>
                   <Link to={`/product/${product.id}`}>
@@ -51,7 +51,7 @@ function Accessories() {
       <div id="FeaturedProducts">
         <h1>Accessories</h1>
         <div className="featuredProducts_container">
-          {items.filter((product)=> product.category == "Accessories")
+          {items.filter((product)=> product.category === "Accessories")
             .map((product) => (
             <div className="product_cards" key={product.id}>
               <Link to={`/product/${product.id}`}>
