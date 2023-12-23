@@ -140,6 +140,7 @@ function Signin_signup() {
                 <span id="or">Or</span>
                 <LoginSocialGoogle
                   client_id={process.env.REACT_APP_GOOGLE_CLIENT_ID}
+                  client_secret={process.env.REACT_APP_GOOGLE_CLIENT_ID}
                   discoveryDocs="claims_supported"
                   access_type=""
                   onResolve={handleLoginSuccess3}
@@ -224,10 +225,10 @@ function Signin_signup() {
                 </button>
                 <span id="or">Or</span>
                 <LoginSocialGoogle
-                  // client_id="39366397846-7tpjtej77nt473j91vl4hmsv3ia2e0pc.apps.googleusercontent.com"
                   client_id={process.env.REACT_APP_GOOGLE_CLIENT_ID}
-                  // client_secret={process.env.GOOGLE_CLIENT_SECRET}
+                  client_secret={process.env.REACT_APP_GOOGLE_CLIENT_SECRET}
                   discoveryDocs="claims_supported"
+                  access_type=""
                   onResolve={handleLoginSuccess}
                   onReject={({ error }) => {
                     console.log(error);
