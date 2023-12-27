@@ -14,6 +14,26 @@
   display: flex;
   gap: 1rem;
 }
+#user_container .buttons button{
+  background-color: #0084d6;
+  border: 1px solid #0084d6;
+  margin-bottom: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 12.768px;
+  font-weight: 590;
+  letter-spacing: 1px;
+  padding: 0.5rem 2rem;
+
+  /* justify-content: center; */
+  /* margin-right: 1.5rem; */
+  &:hover {
+    background-color: #0075be;
+    color: #ffffff;
+    border: 1px solid #0075be;
+  }
+}
 #User .logout {
   background-color: #0084d6;
   border: 1px solid #0084d6;
