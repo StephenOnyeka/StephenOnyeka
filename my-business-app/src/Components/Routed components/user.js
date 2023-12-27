@@ -1,5 +1,12 @@
 import React from "react";
 import NVBar from "../navbar/NVBar";
+import {
+  SignOutButton,
+  SignInButton,
+  SignedOut,
+  SignedIn,
+  useUser,
+} from "@clerk/clerk-react";
 
 function User({ data, setData }) {
   const localName = localStorage.getItem("name");
@@ -17,23 +24,25 @@ function User({ data, setData }) {
     setData(null);
     window.location.reload();
   };
+  const { user } = useUser();
   return (
     <div id="User">
       <NVBar />
       <div id="user_container">
         <h2>
-          Welcome (<i>{localName}{oauthName}</i>)!
+          Welcome (<i>{user.username}{localName}{oauthName}</i>)!
         </h2>
         <h3>
           <i>Hope you are enjoying your time with us!</i>
         </h3>
         <div className="buttons">
-          <button onClick={logout} className="logout">
+          {/* <button onClick={logout} className="logout">
             LogOut
           </button>
           <button onClick={deleteAccount} className="delete">
             Delete Acc.
-          </button>
+          </button> */}
+          <SignOutButton></SignOutButton>
         </div>
       </div>
     </div>
