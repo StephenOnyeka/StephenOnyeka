@@ -19,7 +19,7 @@ function Signin_signup() {
             <div className="contact_form">
               <div className="inputs">
                 <div className="title">DNK</div>
-                <p>Please create an account to access our services!</p>                
+                <p>Please create an account / signin to access our services!</p>                
                 <SignInButton>Proceed...</SignInButton>
               </div>
             </div>
