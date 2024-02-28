@@ -11,6 +11,8 @@ function Tech() {
               <li><img src="./images/GitHub-Mark.png" alt="" /></li>
               <li><img src="./images/React-icon.svg.png" alt="" /></li>
               <li><img src="./images/225996.webp" alt="" /></li>
+              <li><img src="/images/download (2).png"style={{borderRadius:"100%"}} alt="" /></li>
+              <li><img src="/images/5968705.png" alt="" /></li>
           </ul>
     </div>
   )
