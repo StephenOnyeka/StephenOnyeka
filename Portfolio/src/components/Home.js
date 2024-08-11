@@ -5,7 +5,7 @@ import Portfolio from "./portfolio";
 import { useNavigate } from "react-router-dom";
 function Home() {
   const [typeEffect] = useTypewriter({
-    words: ['Software Developer', 'Front-end Dev', 'Web Developer'],
+    words: ['Software Engineer', 'Front-end Dev', 'Back-end Dev', 'Web Developer', 'Mobile App Dev'],
     loop: {}, 
     typeSpeed: 120,
     deleteSpeed: 40

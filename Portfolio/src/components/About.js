@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    // <div>
       <div id="About">
         <h1>
           About <span>Me</span>
@@ -14,32 +14,38 @@ function About() {
             </div>
           </div>
 
-          <section className="about_content-2">
-            <h2>Hi there!</h2>
+          <div className="about_content-2">
+            <h2>Hello!</h2>
             <p>
-              I'm Onyeka Stephen; lots of my fellas know me as{" "}
-              <i>'Don Mizzy'</i>. A Software developer working with Javascript,
-              React.js and third-party packages to build websites and solve
-              problems.
+              I'm a tech lover working with available technologies & programing
+              languages to engineer functional softwares both dynamic and
+              scalable across all platforms.
+              <br />
+              <br />
+              My name is "<b>Stephen Onyeka </b>"{/* <i>'Don Mizzy'</i>. */}
               <br /> <br />
-              I'm passionate about creating clean, efficient, and maintainable
-              code easy to read and understand. I'm confident that my
-              skills and experience makes me the perfect candidate for your
+              {/* I am passionate about my craft in creating clean, efficient, and maintainable
+              code easy to read and understand.
+              <br /> */}
+              My skills and experience makes me the perfect candidate for your
               project.
               <br /> <br />
-              I'm always looking for new challenges and opportunities to learn
-              and grow as a developer.
-              <br />
-              If you're looking for a knowledgeable
-              programmer who can help you with web projects, blog site,
-              portfolio page, e-commerce websites... look no further!
+              Always looking for new challenges and opportunities to grow and
+              learn as a developer.
+              <br /> <br />
+              "
+              <i>
+                If you're in search for a knowledgeable programmar who can help
+                you with your web projects and mobile apps... look no further!
+              </i>
+              "
               <br />
               <br />
             </p>
-          </section>
+          </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 

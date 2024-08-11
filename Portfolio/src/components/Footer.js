@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <div id="footer">
-        <p>@EXPLORE 2023. All rights reserved.</p>
+        <p>@EXPLORE 2024. All rights reserved.</p>
         <ul>
           <li>
             <a href="https://wa.me/09162342603">
