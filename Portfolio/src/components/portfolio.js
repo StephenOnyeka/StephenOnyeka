@@ -207,7 +207,7 @@ function Portfolio() {
                       <line x1="10" y1="14" x2="21" y2="3"></line>
                     </svg>
                   </a>
-                  <a href="https://github.com/StephenOnyeka/Next-P/tree/main/sec-project">
+                  <a href="https://kingster.vercel.app/">
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -228,7 +228,8 @@ function Portfolio() {
                   </a>
                 </span>
               </h3>
-              A school page website I built using NextJS and TailwindCSS to prove mastery of the technologies involved.
+              A school page website I built using NextJS and TailwindCSS to
+              prove mastery of the technologies involved.
             </p>
           </div>
         </div>
