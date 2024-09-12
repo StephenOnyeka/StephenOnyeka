@@ -182,7 +182,7 @@ function Portfolio() {
           {/* This is exactly where it cuts */}
           <div className="p_box">
             <div className="p_image">
-              <a href="https://stephenonyeka.github.io/jprojects.github.io/">
+              <a href="https://kingster.vercel.app/">
                 <img src="images\Screenshot For-Kingster.png" alt="portfolio" />
               </a>
             </div>
@@ -207,7 +207,7 @@ function Portfolio() {
                       <line x1="10" y1="14" x2="21" y2="3"></line>
                     </svg>
                   </a>
-                  <a href="https://kingster.vercel.app/">
+                  <a href="https://github.com/StephenOnyeka/Next-P/tree/main/sec-project">
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
