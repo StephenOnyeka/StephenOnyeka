@@ -1,7 +1,8 @@
 # Hi, I'm Stephen Onyeka! 
 <a href="https://www.github.com/StephenOnyeka" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://twitter.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-<a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/StephenOnyeka" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://twitter.com/StephenOnyeka" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
+<a href="https://www.x.com/@StephenOnyeka" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 
 ### Glad to see you here! 
 I'm a passionate software developer with a strong interest in building innovative solutions. I'm proficient in a range of programming languages, including JavaScript, HTML/CSS, and TypeScript. I'm always looking to learn and expand my skill set to stay up-to-date with industry trends.
@@ -38,11 +39,12 @@ I'm a passionate software developer with a strong interest in building innovativ
   <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio" />
 
-## My Projects
+## My Standout Projects
 
-- [Todo List App](https://github.com/StephenOnyeka/Todo-List-App): A simple todo list app built with React and MongoDB.
-- [Personal Website](https://github.com/StephenOnyeka/Personal-Website): My personal website built with Next.js and hosted on GitHub Pages.
-- [E-commerce Website](https://github.com/StephenOnyeka/E-commerce-Website): An e-commerce website built with React, Express.js, and MongoDB.
+- [Lenis](https://github.com/StephenOnyeka/Projects/tree/main/beauty-site): A beauty brand website built with React and MongoDB.
+- [Kingster](https://github.com/StephenOnyeka/Projects/tree/main/kingster-project): My school website built with Next.js and tailwindcss.
+- [Adoration Paints](https://github.com/StephenOnyeka/Projects/tree/main/paint-site): My painting company website built with Next.js and hosted on Vercel.
+- [DNK - E-commerce Website](https://github.com/StephenOnyeka/Projects/tree/main/my-business-app): An e-commerce website built with React, JSON, and Nodejs.
 
 ## My Stats
 
@@ -57,4 +59,10 @@ I'm a passionate software developer with a strong interest in building innovativ
 
 ## Let's Connect
 
-If you're interested in collaborating on a project or just want to chat about software development, feel free to reach out to me on [Twitter](https://twitter.com/) or [LinkedIn](https://www.linkedin.com/). Let's build something amazing together!
+If you're interested in collaborating on a project or just want to chat about software development, feel free to reach out to me on:
+- [LinkedIn](https://www.linkedin.com/in/StephenOnyeka)
+- [Twitter](https://twitter.com/StephenOnyeka)
+- [X](https://www.x.com/@StephenOnyeka)
+- [GitHub](https://www.github.com/StephenOnyeka)
+
+Let's build something amazing together!
