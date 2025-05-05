@@ -49,7 +49,6 @@ I'm a passionate software developer with a strong interest in building innovativ
 ![StephenOnyeka's GitHub stats](https://github-readme-stats.vercel.app/api?username=StephenOnyeka&show_icons=true&theme=midnight-purple)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=StephenOnyeka&layout=donut)](https://github.com/StephenOnyeka/github-readme-stats)
 
-
 ## My Achievements
 
 - 📚 **Completed** multiple projects using JavaScript, HTML/CSS, and TypeScript
