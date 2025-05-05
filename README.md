@@ -12,7 +12,7 @@ I'm a passionate software developer with a strong interest in building innovativ
 - I'm a <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> **Software Developer** with a strong foundation in computer science and a keen interest in emerging technologies.
 - I'm 🤩 **passionate about** building innovative solutions and collaborating with others to drive project success.
 - I'm 💻 **proficient in** a range of programming languages, including JavaScript, HTML/CSS, and TypeScript.
-- I'm 🚀 **interested in** machine learning, data analysis, and web development.
+- I'm 🚀 **interested in** web development, mobile applications, cloud engineering and cybersecurity.
 
 ## My Skills
 
