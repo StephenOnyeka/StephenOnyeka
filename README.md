@@ -1,20 +1,23 @@
-# Hi, I'm Stephen Onyeka! 
+# Hi, I'm Stephen Onyeka!
+
 <a href="https://www.github.com/StephenOnyeka" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://www.linkedin.com/in/stephen-onyeka/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://x.com/DonMizzy10" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
 <a href="https://dev.to/don_mizzy" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Dev-00000?style=for-the-badge&logo=dev&logoColor=white" alt="DEV" /></a>
 
-### Glad to see you here! 
-I'm a frontend-focused fullstack software developer with a strong interest in building innovative, responsive, and user-friendly software solutions. I'm proficient in a range of programming languages, including React, Next.js, and TypeScript. I'm always looking to learn and expand my skill set to stay up-to-date with industry trends.
+### Glad to see you here!
+
+I'm a frontend-focused fullstack developer with a strong interest in building innovative, responsive, and user-friendly software solutions. I'm proficient in a range of programming languages, including React, Next.js, and TypeScript. I'm always looking to learn and expand my skill set to stay up-to-date with industry trends.
 
 ## About me
 
-- I'm a <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> **Software Developer** with a strong foundation in computer science and a keen interest in emerging technologies.
-- I'm 🤩 **passionate about** building innovative solutions and collaborating with others to drive project success.
-- I'm 💻 **proficient in** a range of programming languages, including JavaScript, HTML/CSS, and TypeScript.
-- I'm 🚀 **interested in** web development, mobile applications, cloud engineering and cybersecurity.
+- I'm a **Software Engineer** with a strong foundation in computer science and a keen interest in emerging technologies.
+- Always 🤩 **curious about** how things work. With love in exploring the latest tech gadgets and softwares.
+- 🚀 **interested in** web development, AI, mobile applications, cloud engineering and cybersecurity.
+- I'm 💻 **currently learning** Rust (honest truth? It'll make you question your intelligence lol).
 
-## My Skills
+## Technical Skills
+
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <!-- - **Frontend & Mobile:** -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" title="React" alt="React" width="35" height="35" />
@@ -70,17 +73,18 @@ I'm a frontend-focused fullstack software developer with a strong interest in bu
   <img src="https://cdn.simpleicons.org/qdrant" title="Qdrant" alt="Qdrant" width="35" height="35" />
 </div>
 
-## My Standout Projects
+<!-- ## My Standout Projects
 
 - [Lenis](https://github.com/StephenOnyeka/Projects/tree/main/beauty-site): A beauty brand website built with React and MongoDB.
 - [Kingster](https://github.com/StephenOnyeka/Projects/tree/main/kingster-project): My school website built with Next.js and tailwindcss.
 - [Adoration Paints](https://github.com/StephenOnyeka/Projects/tree/main/paint-site): My painting company website built with Next.js and hosted on Vercel.
-- [DNK - E-commerce Website](https://github.com/StephenOnyeka/Projects/tree/main/my-business-app): An e-commerce website built with React, JSON, and Nodejs.
+- [DNK - E-commerce Website](https://github.com/StephenOnyeka/Projects/tree/main/my-business-app): An e-commerce website built with React, JSON, and Nodejs. -->
 
 ## My Stats
 
 ![StephenOnyeka's GitHub stats](https://github-stats-extended.vercel.app/api?username=StephenOnyeka&show_icons=true&theme=midnight-purple)
 [![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=StephenOnyeka&layout=donut)](https://github.com/StephenOnyeka/github-readme-stats)
+
 <!-- [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=stephenonyeka&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph) -->
 
 ## My Achievements
@@ -92,9 +96,11 @@ I'm a frontend-focused fullstack software developer with a strong interest in bu
 ## Let's Connect
 
 If you're interested in collaborating on a project or just want to chat about software development, feel free to reach out to me on:
-- [LinkedIn](https://www.linkedin.com/in/StephenOnyeka)
-- [Twitter](https://twitter.com/StephenOnyeka)
-- [X](https://www.x.com/@StephenOnyeka)
-- [GitHub](https://www.github.com/StephenOnyeka)
+
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="35" height="35" />](https://www.linkedin.com/in/StephenOnyeka)
+[<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/devdotto.svg" title="Dev.to" alt="Dev.to" width="35" height="35" />](mailto:ejeanobionyeka@gmail.com)
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="35" height="35" />](https://www.github.com/StephenOnyeka)
+
+or send me an email : ejeanobionyeka@gmail.com
 
 Let's build something amazing together!
