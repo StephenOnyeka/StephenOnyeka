@@ -19,7 +19,6 @@ I'm a frontend-focused fullstack software developer with a strong interest in bu
 <!-- - **Frontend & Mobile:** -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" title="React" alt="React" width="35" height="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" title="Next.js" alt="Next.js" width="35" height="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" title="React Native" alt="React Native" width="35" height="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg" title="Expo" alt="Expo" width="35" height="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/capacitor/capacitor-original.svg" title="Capacitor" alt="Capacitor" width="35" height="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg" title="WordPress" alt="WordPress" width="35" height="35" />
@@ -36,7 +35,6 @@ I'm a frontend-focused fullstack software developer with a strong interest in bu
 <!-- - **Styling & UI:** -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" alt="Tailwind CSS" width="35" height="35" />
   <img src="https://cdn.simpleicons.org/shadcnui" title="Shadcn/ui" alt="Shadcn/ui" width="35" height="35" />
-  <img src="https://cdn.simpleicons.org/radixui" title="Radix UI" alt="Radix UI" width="35" height="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap" width="35" height="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/styledcomponents/styledcomponents-original.svg" title="Styled Components" alt="Styled Components" width="35" height="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="35" height="35" />
