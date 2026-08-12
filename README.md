@@ -90,7 +90,7 @@ I'm a frontend-focused fullstack developer with a strong interest in building in
 ## My Achievements
 
 - 📚 **Completed** multiple projects using JavaScript, HTML/CSS, and TypeScript
-- 📈 **Improved** my coding skills through online courses and tutorials
+- 📈 **Improved** my coding skills through technical problem solving and building real-world projects
 - 👥 **Contributed** to open-source projects on GitHub
 
 ## Let's Connect
@@ -98,7 +98,7 @@ I'm a frontend-focused fullstack developer with a strong interest in building in
 If you're interested in collaborating on a project or just want to chat about software development, feel free to reach out to me on:
 
 [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="35" height="35" />](https://www.linkedin.com/in/StephenOnyeka)
-[<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/devdotto.svg" title="Dev.to" alt="Dev.to" width="35" height="35" />](mailto:ejeanobionyeka@gmail.com)
+[<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/devdotto.svg" title="Dev.to" alt="Dev.to" width="35" height="35" />](https://dev.to/don_mizzy)
 [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="35" height="35" />](https://www.github.com/StephenOnyeka)
 
 or send me an email : ejeanobionyeka@gmail.com
