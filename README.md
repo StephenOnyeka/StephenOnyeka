@@ -15,7 +15,7 @@ I'm a frontend-focused fullstack software developer with a strong interest in bu
 - I'm 🚀 **interested in** web development, mobile applications, cloud engineering and cybersecurity.
 
 ## My Skills
-
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 <!-- - **Frontend & Mobile:** -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" title="React" alt="React" width="45" height="45" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" title="Next.js" alt="Next.js" width="45" height="45" />
@@ -70,6 +70,7 @@ I'm a frontend-focused fullstack software developer with a strong interest in bu
   <img src="https://cdn.simpleicons.org/claude" title="Anthropic Claude" alt="Anthropic Claude" width="45" height="45" />
   <img src="https://cdn.simpleicons.org/googlegemini" title="Gemini" alt="Gemini" width="45" height="45" />
   <img src="https://cdn.simpleicons.org/qdrant" title="Qdrant" alt="Qdrant" width="45" height="45" />
+</div>
 
 ## My Standout Projects
 
