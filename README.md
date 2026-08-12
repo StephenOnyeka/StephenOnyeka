@@ -12,7 +12,7 @@ I'm a frontend-focused fullstack developer with a strong interest in building in
 ## About me
 
 - I'm a **Software Engineer** with a strong foundation in computer science and a keen interest in emerging technologies.
-- Always 🤩 **curious about** how things work. With love in exploring the latest tech gadgets and softwares.
+- Always 😉 **curious about** how things work. With love in exploring the latest tech gadgets and softwares.
 - 🚀 **interested in** web development, AI, mobile applications, cloud engineering and cybersecurity.
 - I'm 💻 **currently learning** Rust (honest truth? It'll make you question your intelligence lol).
 
