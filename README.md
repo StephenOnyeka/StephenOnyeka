@@ -90,7 +90,7 @@ I'm a frontend-focused fullstack developer with a strong interest in building in
 ## My Achievements
 
 - 📚 **Completed** multiple projects using JavaScript, HTML/CSS, and TypeScript
-- 📈 **Improved** my coding skills through technical problem solving and building real-world projects
+- 📈 **Enhanced** my coding skills through technical problem solving and building real-world projects
 - 👥 **Contributed** to open-source projects on GitHub
 
 ## Let's Connect
