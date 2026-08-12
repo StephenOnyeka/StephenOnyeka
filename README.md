@@ -5,7 +5,7 @@
 <a href="https://dev.to/don_mizzy" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Dev-00000?style=for-the-badge&logo=dev&logoColor=white" alt="DEV" /></a>
 
 ### Glad to see you here! 
-I'm a passionate software developer with a strong interest in building innovative solutions. I'm proficient in a range of programming languages, including JavaScript, HTML/CSS, and TypeScript. I'm always looking to learn and expand my skill set to stay up-to-date with industry trends.
+I'm a frontend-focused fullstack software developer with a strong interest in building innovative, responsive, and user-friendly software solutions. I'm proficient in a range of programming languages, including React, Next.js, and TypeScript. I'm always looking to learn and expand my skill set to stay up-to-date with industry trends.
 
 ## About me
 
@@ -16,28 +16,60 @@ I'm a passionate software developer with a strong interest in building innovativ
 
 ## My Skills
 
-- **Programming Languages:**
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-- **Development Frameworks:**
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Native" />
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-- **Databases:**
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-- **Design Tools:**
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Webflow-4353FF?style=for-the-badge&logo=webflow&logoColor=white" alt="Webflow" />
-- **Operating Systems:**
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
-- **Tools:**
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio" />
+<!-- - **Frontend & Mobile:** -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" title="React" alt="React" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" title="Next.js" alt="Next.js" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" title="React Native" alt="React Native" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg" title="Expo" alt="Expo" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/capacitor/capacitor-original.svg" title="Capacitor" alt="Capacitor" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg" title="WordPress" alt="WordPress" width="45" height="45" />
+  <!-- <img src="https://cdn.simpleicons.org/wordpress" title="Drizzle ORM" alt="Drizzle" width="45" height="45" /> -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" title="HTML5" alt="HTML5" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" title="CSS3" alt="CSS3" width="45" height="45" />
+<!-- - **Data & State Management:** -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zustand/zustand-original.svg" title="Zustand" alt="Zustand" width="45" height="45" />
+  <img src="https://cdn.simpleicons.org/swr" title="SWR" alt="SWR" width="45" height="45" />
+  <img src="https://cdn.simpleicons.org/reactquery" title="TanStack Query" alt="TanStack Query" width="45" height="45" />
+  <img src="https://cdn.simpleicons.org/tanstack" title="TanStack Table & Router" alt="TanStack" width="45" height="45" />
+<!-- - **Styling & UI:** -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" alt="Tailwind CSS" width="45" height="45" />
+  <img src="https://cdn.simpleicons.org/shadcnui" title="Shadcn/ui" alt="Shadcn/ui" width="45" height="45" />
+  <img src="https://cdn.simpleicons.org/radixui" title="Radix UI" alt="Radix UI" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/styledcomponents/styledcomponents-original.svg" title="Styled Components" alt="Styled Components" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg" title="Framer Motion" alt="Framer Motion" width="45" height="45" />
+<!-- - **Testing:** -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" title="Jest" alt="Jest" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" title="Cypress" alt="Cypress" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg" title="Vitest" alt="Vitest" width="45" height="45" />
+<!-- - **Design & Workflow Tools:** -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" title="Figma" alt="Figma" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/storybook/storybook-original.svg" title="Storybook" alt="Storybook" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webflow/webflow-original.svg" title="Webflow" alt="Webflow" width="45" height="45" />
+  <img src="https://cdn.simpleicons.org/drizzle" title="Drizzle ORM" alt="Drizzle" width="45" height="45" />
+<!-- - **Backend:** -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" title="Node.js" alt="Node.js" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" title="Express.js" alt="Express.js" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" title="Nest.js" alt="Nest.js" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" title="GraphQL" alt="GraphQL" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" title="MongoDB" alt="MongoDB" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" title="Firebase" alt="Firebase" width="45" height="45" />
+<!-- - **DevOps & Cloud:** -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" title="GitHub Actions" alt="GitHub Actions" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" title="Docker" alt="Docker" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" title="Vercel" alt="Vercel" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title="AWS" alt="AWS" width="45" height="45" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" title="Git" alt="Git" width="45" height="45" />
+<!-- - **AI & Vector Search:** -->
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openai.svg" title="OpenAI" alt="OpenAI" width="45" height="45" />
+  <img src="https://cdn.simpleicons.org/claude" title="Anthropic Claude" alt="Anthropic Claude" width="45" height="45" />
+  <img src="https://cdn.simpleicons.org/googlegemini" title="Gemini" alt="Gemini" width="45" height="45" />
+  <img src="https://cdn.simpleicons.org/qdrant" title="Qdrant" alt="Qdrant" width="45" height="45" />
 
 ## My Standout Projects
 
