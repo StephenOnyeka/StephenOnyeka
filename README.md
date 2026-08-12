@@ -79,8 +79,9 @@ I'm a frontend-focused fullstack software developer with a strong interest in bu
 
 ## My Stats
 
-![StephenOnyeka's GitHub stats](https://github-readme-stats.vercel.app/api?username=StephenOnyeka&show_icons=true&theme=midnight-purple)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=StephenOnyeka&layout=donut)](https://github.com/StephenOnyeka/github-readme-stats)
+![StephenOnyeka's GitHub stats](https://github-stats-extended.vercel.app/api?username=StephenOnyeka&show_icons=true&theme=midnight-purple)
+[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=StephenOnyeka&layout=donut)](https://github.com/StephenOnyeka/github-readme-stats)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=stephenonyeka&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ## My Achievements
 
